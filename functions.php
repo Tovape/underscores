@@ -182,3 +182,17 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 if ( class_exists( 'WooCommerce' ) ) {
 	require get_template_directory() . '/inc/woocommerce.php';
 }
+
+
+// Custom Menu and footer
+function wpb_custom_new_menu() {
+	register_nav_menus(
+		array(
+			'menu-footer-1' => __( 'menu-footer-1' ),
+			'menu-footer-2' => __( 'menu-footer-2' ),
+			'menu-nav-1' => __( 'menu-nav-1' ),
+			'menu-nav-2' => __( 'menu-nav-2' )
+		)
+	);
+}
+add_action( 'init', 'wpb_custom_new_menu' );
