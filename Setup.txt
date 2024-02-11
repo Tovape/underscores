@@ -1,0 +1,12 @@
+Plugins:
+
+Advanced Custom Fields
+Custom Post Type UI
+Contact Form 7
+SVG Support
+Really Simple Under Construction Page
+All-in-One WP Migration
+
+Optional:
+Post Views Counter
+Editor clásico

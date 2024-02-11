@@ -38,6 +38,10 @@ button {
 	all: unset;
 }
 
+video, img {
+	display: block;
+}
+
 textarea {
 	resize: vertical;
 }
