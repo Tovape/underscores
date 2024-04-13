@@ -6,7 +6,10 @@ Contact Form 7
 SVG Support
 Really Simple Under Construction Page
 All-in-One WP Migration
-
-Optional:
+Simple Custom Post Order
 Post Views Counter
 Editor clásico
+Bulk Attachment Download
+Disable Comments RB
+Limit Login Attempts Reloaded
+whatwedo ACF Cleaner
